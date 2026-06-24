@@ -1,18 +1,45 @@
-# Sentiment Analysis
+# Sentiment Analysis using Naïve Bayes
 
-A text classification model that predicts sentiment (positive/negative) from real-world text data.
+This repository contains a **Sentiment Analysis** project using the **Naïve Bayes algorithm**.  
+The model classifies text into **Positive, Negative, and Neutral** sentiments.
 
-## Tech Stack
-Python, Scikit-learn, NLTK, TF-IDF, Naïve Bayes
+## 🚀 Getting Started
 
-## How It Works
-- Preprocesses raw text with tokenization and stop-word removal using NLTK
-- Vectorizes text using TF-IDF
-- Trains a Naïve Bayes classifier; achieved **87% accuracy** after hyperparameter tuning
-- Validated with precision, recall, and F1 metrics across sentiment classes
-
-## Run Locally
+### 1. Clone the Repository
 ```bash
-pip install scikit-learn nltk
-python model.py
+git clone https://github.com/your-username/sentiment-analysis-naive-bayes.git
+cd sentiment-analysis-naive-bayes
 ```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run Training Script
+```bash
+python sentiment_analysis.py
+```
+
+### 4. Run Web App
+```bash
+streamlit run app.py
+```
+
+## 📦 Project Structure
+```
+├── sentiment_analysis.py     # Main model training script
+├── app.py                    # Streamlit app for predictions
+├── requirements.txt          # Dependencies
+├── README.md                 # Documentation
+```
+
+## 🎯 Features
+- Train Naïve Bayes classifier
+- TF-IDF vectorization
+- Model persistence with joblib
+- Streamlit web app for real-time predictions
+
+## 🌍 Deployment Options
+- **Streamlit Cloud**
+- **Hugging Face Spaces**
