@@ -7,7 +7,7 @@ The model classifies text into **Positive, Negative, and Neutral** sentiments.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/sentiment-analysis-naive-bayes.git
+git clone https://github.com/mattareddy8/sentiment-analysis-naive-bayes.git
 cd sentiment-analysis-naive-bayes
 ```
 
